@@ -66,7 +66,7 @@ declare class Dataclass<T> {
      * let anotherRectangle = rectangle.clone();
      * ```
      */
-    copy(): Dataclass<T>;
+    clone(): Dataclass<T>;
     /**
      * Method that performs a deep and strict equality check on the data of
      * Dataclass instances.

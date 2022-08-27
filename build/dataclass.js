@@ -84,7 +84,7 @@ class Dataclass {
      * let anotherRectangle = rectangle.clone();
      * ```
      */
-    copy() {
+    clone() {
         return new Dataclass(node_v8_1.default.deserialize(node_v8_1.default.serialize(this._data)));
     }
     /**

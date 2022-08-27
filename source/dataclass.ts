@@ -85,7 +85,7 @@ class Dataclass<T> {
    * let anotherRectangle = rectangle.clone();
    * ```
    */
-  public copy() {
+  public clone() {
     return new Dataclass<T>(v8.deserialize(v8.serialize(this._data)));
   }
 
